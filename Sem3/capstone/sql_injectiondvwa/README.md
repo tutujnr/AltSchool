@@ -6,7 +6,7 @@ SQL Injection attacks, replacing the vulnerable logic found in DVWA (Medium).
 
 ## Requirements
 - Python 3.x
-- MySQL 9.x
+- MySQL 
 - mysql-connector-python
 
 ## Setup
@@ -26,4 +26,5 @@ python test.py
 
 ## Example SQLi Payload Tested
 ' OR 1=1 --
+
 (Result: Authentication fails)
